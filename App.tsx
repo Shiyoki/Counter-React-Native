@@ -1,12 +1,16 @@
 import React from 'react';
-// import HolaMundoScreen from './src/screens/HolaMundoScreen';
-import {CounterScreen} from './src/screens/CounterScreen';
-
+import {SafeAreaView} from 'react-native';
+import { FlexScreen } from './src/screens/FlexScreen';
+import {PositionScreen} from './src/screens/PositionScreen';
+import { TareaScreen } from './src/screens/TareaScreen';
 
 const App = () => {
   return (
-    // <HolaMundoScreen />
-    <CounterScreen />
+    <SafeAreaView style={{ flex: 1}}>
+      {/* <PositionScreen /> */}
+      {/* <FlexScreen /> */}
+      <TareaScreen />
+    </SafeAreaView>
   );
 };
 
